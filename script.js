@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const correctCode = "1234"; // Code correct à vérifier
+    const correctCode = "4753"; // Code correct à vérifier
     let inputCode = "";
     let attempts = 0;
     const maxAttempts = 3;
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             attempts++;
             if (attempts >= maxAttempts) {
-                message.textContent = "Vous avez perdu. Nombre maximal de tentatives atteint.";
+                message.textContent = "☠️☠️☠️ erreur sur les 3 tentatives... le malware se répand sur tous les mobiles ayant téléchargé l'application !!!! ☠️☠️☠️";
                 disableKeypad();
             } else {
                 message.textContent = `Code invalide. Tentative ${attempts} sur ${maxAttempts}.`;
