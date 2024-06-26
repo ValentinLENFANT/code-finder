@@ -4,12 +4,12 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica;
 }
 
 .container {
     text-align: center;
-    background-color: white;
+    background-color: #f8f8ff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -30,7 +30,7 @@ body {
 .key {
     font-size: 1.5em;
     padding: 20px;
-    background-color: #e0e0e0;
+    background-color: #adadc9;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -38,11 +38,11 @@ body {
 }
 
 .key:hover {
-    background-color: #d0d0d0;
+    background-color: #7f7d9c;
 }
 
 .message {
     margin-top: 20px;
     font-size: 1.2em;
-    color: #d9534f;
+    color: #0492c2;
 }

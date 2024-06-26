@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const correctCode = "4753"; // Code correct à vérifier
+    const correctCode = "5566"; // Code correct à vérifier
     let inputCode = "";
     let attempts = 0;
     const maxAttempts = 3;
@@ -21,8 +21,14 @@ document.addEventListener("DOMContentLoaded", () => {
             } else if (key.id === "clear") {
                 inputCode = "";
                 updateDisplay();
-                message.textContent = "";
-            }
+                message.textContent = ""; 
+					
+            } else if (key.id === "delete") {
+				inputCode = inputCode.slice(0,-1);
+				updateDisplay();
+				message.textContent = "";
+			}
+		     
         });
     });
 
@@ -33,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function checkCode() {
         if (inputCode === correctCode) {
             message.textContent = "Félicitations ! Code correct.";
-            message.style.color = "#5cb85c";
+            message.style.color = "#0492c2";
         } else {
             attempts++;
             if (attempts >= maxAttempts) {
