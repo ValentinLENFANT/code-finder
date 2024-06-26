@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const correctCode = "5566"; // Code correct à vérifier
+    const correctCode = "4753"; // Code correct à vérifier
     let inputCode = "";
     let attempts = 0;
     const maxAttempts = 3;
